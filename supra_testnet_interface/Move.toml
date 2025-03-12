@@ -7,7 +7,6 @@ authors = []
 pump="0x12a655b83d3c28d36a2c52ccd8cdcc15df50c100f1fd34de038755b7adacc4b6"
 pump_admin="0x12a655b83d3c28d36a2c52ccd8cdcc15df50c100f1fd34de038755b7adacc4b6"
 
-
 [dependencies.SupraFramework]
 git = "https://github.com/Entropy-Foundation/aptos-core.git"
 rev = "dev"

@@ -1,0 +1,13 @@
+[package]
+name = "pump"
+version = "1.0.0"
+authors = []
+
+[addresses]
+pump="0x3128936eff12dc2953ea3189d31fcd60db1397546017180f72f9ff5e59bfed13"
+pump_admin="0x3128936eff12dc2953ea3189d31fcd60db1397546017180f72f9ff5e59bfed13"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/movementlabsxyz/aptos-core.git", rev = "movement", subdir = "aptos-move/framework/aptos-framework" }
+
+[dev-dependencies]
