@@ -13,8 +13,4 @@ git = "https://github.com/Entropy-Foundation/aptos-core.git"
 rev = "dev"
 subdir = "aptos-move/framework/supra-framework"
 
-[dependencies.dexlyn_swap]
-git = "https://github.com/DexlynLabs/dexlyn_swap_interface"
-rev = "testnet"
-
 [dev-dependencies]

@@ -1,6 +1,6 @@
 module pump::pump {
     use std::string::String;
-    use std::option::{Self, Option};
+    use std::option::Option;
 
     native public entry fun create<X,Y>(
         acc: &signer,
