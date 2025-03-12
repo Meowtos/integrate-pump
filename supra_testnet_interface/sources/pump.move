@@ -1,4 +1,6 @@
 module pump::pump {
+    use std::string::String;
+    use std::option::{Self, Option};
 
     public entry fun create<X,Y>(
         acc: &signer,
@@ -9,7 +11,7 @@ module pump::pump {
         website: Option<String>,
         twitter: Option<String>,
         telegram: Option<String>,
-    ) {}
+    );
 
     native public entry fun buy<X,Y>(
         acc: &signer,
